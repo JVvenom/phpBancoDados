@@ -8,6 +8,7 @@ class Dao
 
     function conecta()
     { 
+        
         $pdo = null;
         try {
             $pdo = new PDO('mysql:host=' . self::HOST . ';dbname=' . self::DB, self::USER, self::PASS);
