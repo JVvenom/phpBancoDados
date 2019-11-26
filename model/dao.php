@@ -17,6 +17,6 @@ class Dao
             print "Error!: " . $e->getMessage() . "<br/>";
             die();
         }
-         return $pdo;
+        return $pdo;
     }
 }
